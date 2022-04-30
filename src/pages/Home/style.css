@@ -1,0 +1,28 @@
+.Home{
+    display: flex;
+    flex: 1;
+    overflow: auto;
+    
+}
+
+.imageContainer{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: 5px
+    
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    max-height: none;
+    max-width: none;
+    width: auto;
+    height: auto;
+}

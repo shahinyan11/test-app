@@ -1,0 +1,29 @@
+.LeftBar {
+    min-width: 200px;
+    background-color: gray;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+}
+.selected {
+    background-color: black;
+}
+button {
+    background-color: yellow;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 25px;
+}
